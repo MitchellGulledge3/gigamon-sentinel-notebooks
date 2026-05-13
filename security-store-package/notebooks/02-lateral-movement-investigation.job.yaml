@@ -1,0 +1,9 @@
+name: gigamon-lateral-movement-graph
+description: >
+  Reconstructs east-west traffic from Gigamon AMX flows as a NetworkX graph,
+  highlights SSH / RDP / SMB pivots, and surfaces the highest-degree internal
+  hosts as candidate jump boxes.
+notebook: 02-lateral-movement-investigation.ipynb
+sparkPoolSize: Small
+schedule:
+  type: OnDemand

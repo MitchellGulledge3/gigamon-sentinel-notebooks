@@ -1,0 +1,9 @@
+name: Gigamon Deep Observability Hunting Pack
+publisher: Gigamon
+version: 1.0.0
+description: >
+  Notebook-only Sentinel data lake solution that ships five executable Jupyter
+  notebooks for hunting threats in Gigamon AMX network telemetry: getting-started
+  posture, lateral movement graph, JA3 fingerprint threat matching, beacon
+  periodicity analysis, and an app-mix / shadow IT dashboard.
+solutionType: SentinelLake

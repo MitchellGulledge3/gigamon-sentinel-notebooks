@@ -1,0 +1,6 @@
+manifest:
+  - id: "gigamon_deep_observability_hunting"
+    description: "Gigamon Deep Observability hunting notebooks for the Microsoft Sentinel data lake. Includes JA3 fingerprint threat matching, beacon periodicity analysis, shadow IT discovery, lateral movement graph reconstruction, and an application-mix dashboard. Built on the GigamonAMXNetworkLog table emitted by the Gigamon connector for Microsoft Sentinel."
+    type: SentinelLake
+schema:
+  version: "1.0.0"

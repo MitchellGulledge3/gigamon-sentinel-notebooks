@@ -1,0 +1,12 @@
+name: gigamon-ja3-fingerprint-hunt
+description: >
+  Flagship hunting notebook. Aggregates JA3/JA3S TLS client fingerprints from
+  Gigamon AMX telemetry, joins them against a known-bad fingerprint table
+  (Cobalt Strike, Sliver, Trickbot, Emotet, Tor, Adwind RAT), and drills into
+  matching sessions for investigators.
+notebook: 03-ja3-fingerprint-hunting.ipynb
+sparkPoolSize: Small
+schedule:
+  type: Scheduled
+  frequency: Daily
+  startTimeUtc: "00:00"

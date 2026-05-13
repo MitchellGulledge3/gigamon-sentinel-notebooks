@@ -1,0 +1,9 @@
+name: gigamon-getting-started
+description: >
+  Baseline posture notebook. Connects to the Sentinel data lake, queries the
+  GigamonAMXNetworkLog table, and renders top sources, destinations, and bytes
+  transferred over the last 24 hours.
+notebook: 01-getting-started-sentinel-datalake.ipynb
+sparkPoolSize: Small
+schedule:
+  type: OnDemand

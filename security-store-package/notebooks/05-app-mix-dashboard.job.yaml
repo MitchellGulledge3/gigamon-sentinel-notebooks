@@ -1,0 +1,12 @@
+name: gigamon-app-mix-shadow-it
+description: >
+  Application-mix and shadow IT dashboard. Renders a Plotly Sankey of
+  user-app-category flows from Gigamon AMX application identification and
+  highlights high-risk shadow IT categories (file sharing, AI, remote access,
+  crypto) by bytes and host count.
+notebook: 05-app-mix-dashboard.ipynb
+sparkPoolSize: Small
+schedule:
+  type: Scheduled
+  frequency: Daily
+  startTimeUtc: "01:00"

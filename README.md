@@ -25,6 +25,19 @@ Each notebook is self-contained and uses **only** the Gigamon CCF schema.
 
 ---
 
+## Microsoft Security Store package
+
+The repo ships a pre-built [Security Store](https://learn.microsoft.com/security/store/publish-a-security-copilot-agent-or-analytics-solution-in-security-store)
+upload artifact for all five notebooks under [`security-store-package/`](./security-store-package/):
+
+- `PackageManifest.yaml` (type `SentinelLake`) + `AgentManifest.yaml`
+- One `.job.yaml` per notebook (default schedules: hourly for beacon hunt, daily for JA3 and app-mix, on-demand for the rest)
+- Pre-built zip: [`gigamon-sentinel-notebooks-store-package.zip`](./security-store-package/gigamon-sentinel-notebooks-store-package.zip)
+
+See [`security-store-package/PACKAGING.md`](./security-store-package/PACKAGING.md) for the exact macOS commands to rebuild the zip and the Partner Center upload steps.
+
+---
+
 ## Quick start
 
 ```bash

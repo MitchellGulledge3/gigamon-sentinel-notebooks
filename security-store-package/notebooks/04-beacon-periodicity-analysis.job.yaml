@@ -1,0 +1,10 @@
+name: gigamon-beacon-periodicity
+description: >
+  Detects C2 beaconing by computing inter-arrival statistics (median interval,
+  jitter, IQR) for each src/dst pair in Gigamon AMX flow data and flagging
+  highly periodic communications consistent with implant check-in cadence.
+notebook: 04-beacon-periodicity-analysis.ipynb
+sparkPoolSize: Small
+schedule:
+  type: Scheduled
+  frequency: Hourly
