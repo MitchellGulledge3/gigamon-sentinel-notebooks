@@ -4,6 +4,19 @@ Notebook-only Microsoft Security Store package containing five Jupyter notebooks
 that hunt threats in Gigamon AMX network telemetry stored in the Microsoft
 Sentinel data lake.
 
+## Sample outputs
+
+Live captures from the executed notebooks — see the full gallery in [`../screenshots/`](../screenshots/):
+
+| Notebook | Preview |
+|---|---|
+| **03 JA3 known-bad matches** (flagship — 536 hits / 6 threat families) | ![](../screenshots/03-ja3-fingerprint-hunting-02.png) |
+| **03 JA3 histogram** | ![](../screenshots/03-ja3-fingerprint-hunting-00-histogram.png) |
+| **02 Lateral movement graph** | ![](../screenshots/02-lateral-movement-investigation-01.png) |
+| **05 Application-mix Sankey** | ![](../screenshots/05-app-mix-dashboard-00-sankey.png) |
+| **05 Shadow IT bars** | ![](../screenshots/05-app-mix-dashboard-01.png) |
+| **01 Posture summary** | ![](../screenshots/01-getting-started-sentinel-datalake-01.png) |
+
 ## Contents
 
 ```

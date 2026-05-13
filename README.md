@@ -25,6 +25,24 @@ Each notebook is self-contained and uses **only** the Gigamon CCF schema.
 
 ---
 
+## What it looks like
+
+Live captures from the executed notebooks (see [`screenshots/`](./screenshots/) for the full gallery):
+
+**Flagship — JA3 known-bad matches (536 hits across 6 threat families)**
+![JA3 known-bad matches](./screenshots/03-ja3-fingerprint-hunting-02.png)
+
+**JA3 fingerprint volume histogram**
+![JA3 histogram](./screenshots/03-ja3-fingerprint-hunting-00-histogram.png)
+
+**East-west lateral movement graph**
+![Lateral movement graph](./screenshots/02-lateral-movement-investigation-01.png)
+
+**Application-mix Sankey (Gigamon AMX app identification)**
+![App mix Sankey](./screenshots/05-app-mix-dashboard-00-sankey.png)
+
+---
+
 ## Microsoft Security Store package
 
 The repo ships a pre-built [Security Store](https://learn.microsoft.com/security/store/publish-a-security-copilot-agent-or-analytics-solution-in-security-store)
